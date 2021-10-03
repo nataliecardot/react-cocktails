@@ -1,15 +1,16 @@
-import React, { useState, useContext, useEffect } from 'react'
-import { useCallback } from 'react'
+import React, { useState, useContext, useEffect } from 'react';
+import { useCallback } from 'react';
 
-const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s='
-const AppContext = React.createContext()
+const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=';
+const AppContext = React.createContext();
 
+// children prop is automatically passed by React; it represents the content between the opening and the closing tags when invoking/rendering a component https://stackoverflow.com/a/62790515/8888320
 const AppProvider = ({ children }) => {
-  return <AppContext.Provider value='hello'>{children}</AppContext.Provider>
-}
-// make sure use
-export const useGlobalContext = () => {
-  return useContext(AppContext)
-}
+  return <AppContext.Provider value="hello">{children}</AppContext.Provider>;
+};
 
-export { AppContext, AppProvider }
+export const useGlobalContext = () => {
+  return useContext(AppContext);
+};
+
+export { AppContext, AppProvider };
