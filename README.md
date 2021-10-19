@@ -1,7 +1,7 @@
 # react-cocktails
 
 - Search functionality
-- Loading component
+- Loading component (with lazy loading)
 - Routing using React Router and [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 - Global data sharing using [Context API](https://reactjs.org/docs/context.html)
 
