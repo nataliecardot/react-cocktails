@@ -1,5 +1,6 @@
 # react-cocktails
 
+- Fetches data from [CocktailDB](https://thecocktaildb.com/) API
 - Search functionality
 - Loading component (with lazy loading)
 - Routing using React Router and [react-router-dom](https://www.npmjs.com/package/react-router-dom)
