@@ -20,7 +20,7 @@ const AppProvider = ({ children }) => {
       const data = await response.json();
       const { drinks } = data;
       if (drinks) {
-        // transform to easier-to-manage property names
+        // transform into easier-to-manage property names
         const newCocktails = drinks.map((item) => {
           const { idDrink, strDrink, strDrinkThumb, strAlcoholic, strGlass } =
             item;
