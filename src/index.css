@@ -138,6 +138,7 @@ Navbar
   align-items: center;
   border-bottom: 2px solid var(--primaryColor);
   box-shadow: var(--lightShadow);
+  padding: 30px;
 }
 .nav-center {
   display: flex;
